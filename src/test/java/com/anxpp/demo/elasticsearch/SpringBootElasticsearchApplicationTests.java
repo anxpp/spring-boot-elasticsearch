@@ -65,10 +65,8 @@ public class SpringBootElasticsearchApplicationTests {
         print(jsonHelper.string(userService.search(query)));
     }
 
-
     private void print(String msg) {
         System.out.println(msg);
     }
-
 
 }
